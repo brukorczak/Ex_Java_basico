@@ -20,7 +20,9 @@ public class Main {
         if (veiculoMaisAntigo != null) {
             System.out.println("\n Veiculo mais antigo ");
             System.out.println("Marca: " + veiculoMaisAntigo.getMarca());
-            System.out.println("Ano de: " + veiculoMaisAntigo.getAno());
+            System.out.println("Ano de: " + veiculoMaisAntigo.getAno() + "\n");
+
+            veiculoMaisAntigo.acelerar();
         } else {
             System.out.println("Nenhum veículo na lista.");
         }

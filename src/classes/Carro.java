@@ -7,7 +7,6 @@ public class Carro extends Veiculo{
 
     @Override
     public void acelerar() {
-        System.out.println("vrum vrummmm");
+        System.out.println("🏎️\n" + "vrum vrummmm");
     }
-
 }
