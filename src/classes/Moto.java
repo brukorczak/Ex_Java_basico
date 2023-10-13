@@ -7,6 +7,6 @@ public class Moto extends Veiculo{
 
     @Override
     public void acelerar(){
-        System.out.println("A moto acelera rampampamapampmapamapa pa pa");
+        System.out.println("rampampamapampmapamapa pa pa");
     }
 }
